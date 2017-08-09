@@ -15,6 +15,6 @@ function Fibonacci(N) {
             array.push(j);
         }
     }
-    return array[array.length-1];
+    console.log('斐波纳契数列中第'+ N +'个数是：'+ array[array.length-1]);
 }
-console.log('斐波纳契数列中第20个数是：'+Fibonacci(20));
+Fibonacci(20);
