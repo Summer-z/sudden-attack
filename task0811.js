@@ -4,6 +4,7 @@
  */
 let str = '1->2->3->3->4->5->3';
 let val = 3;
+/* 方法一： 简单粗暴法
 function newLink(str, val) {
     let arr = str.split('->');
     let result = [];
@@ -13,5 +14,13 @@ function newLink(str, val) {
         }
     }
     return result.join('->');
+}*/
+/*方法二：高级方法（箭头函数+filter筛选*/
+function newLink(str, val) {
+    let arr = str.split('->');
+    let newArr = arr.filter((ele) => {
+        return ele !== '' + val;
+    });
+    return newArr.join('->');
 }
 console.log('给定链表是：' + str + '，给定val是：' + val + '，得到的重组链表是：' + newLink(str, val));
