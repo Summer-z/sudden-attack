@@ -6,12 +6,11 @@
 function main() {
     let array = [];
     for (let i = 100; i < 1000; i++) {
-        array.push(i);
+        array.push(i + '');
     }
     console.log('所有的水仙花数是：' + array.filter((ele) => {
-            let str = ele + '';
-            return ele === Math.pow(str.charAt(0), 3) + Math.pow(str.charAt(1), 3) + Math.pow(str.charAt(2), 3);
-        }));
+        return parseInt(ele) === Math.pow(ele.charAt(0), 3) + Math.pow(ele.charAt(1), 3) + Math.pow(ele.charAt(2), 3);
+    }));
 }
 
 main();
