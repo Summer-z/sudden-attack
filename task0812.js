@@ -10,9 +10,9 @@ function main() {
     }
     console.log('所有的水仙花数是：' + array.filter((ele) => {
             let a = Math.floor(ele / 100);
-            let b = Math.floor((ele - a * 100) / 10);
-            let c = Math.floor(ele - a * 100 - b * 10);
-            return ele === a * a * a + b * b * b + c * c * c;
+            let b = Math.floor((ele / 10) % 10);
+            let c = Math.floor(ele % 10);
+            return ele === Math.pow(a, 3) + Math.pow(b, 3) + Math.pow(c, 3);
         }));
 }
 
