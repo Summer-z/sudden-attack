@@ -14,6 +14,9 @@ function findArr(arr) {
         }
     });
     return result;
+    /*进阶方法：
+    return arr.filter((ele, index) => {
+       return arr.lastIndexOf(ele) !== index;
+    })*/
 }
-
 console.log('数组[' + arr + ']中重复出现的元素是：' + findArr(arr));
