@@ -4,19 +4,20 @@
  */
 let arr = ['a','ab','ed','da','a','ed','b'];
 function findArr(arr) {
-    let temp =[];
-    let result = [];
-    arr.forEach(ele => {
-        if(temp.includes(ele)) {
-            result.push(ele);
-        } else {
-            temp.push(ele);
-        }
+    // let temp =[];
+    // let result = [];
+    // arr.forEach(ele => {
+    //     if(temp.includes(ele)) {
+    //         result.push(ele);
+    //     } else {
+    //         temp.push(ele);
+    //     }
+    // });
+    // return result;
+    /*进阶方法：*/
+    let result = arr.filter((ele) => {
+       return arr.lastIndexOf(ele) !== arr.indexOf(ele);
     });
-    return result;
-    /*进阶方法：
-    return arr.filter((ele, index) => {
-       return arr.lastIndexOf(ele) !== index;
-    })*/
+    return [...new Set(result)];
 }
 console.log('数组[' + arr + ']中重复出现的元素是：' + findArr(arr));
