@@ -16,4 +16,4 @@ function findItemIndex(arr, item) {
     return result;
 }
 
-console.log(arr + '中' + item + '出现的位置是：' + findItemIndex(arr, item))
+console.log(arr + '中' + item + '出现的位置是：' + findItemIndex(arr, item));
