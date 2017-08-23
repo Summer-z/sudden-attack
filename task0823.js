@@ -6,12 +6,15 @@
 
 
 function reduceArr(arr) {
+    /*递归的方法，不是很好
     return arr.reduce((sum, ele) => {
         if(isNaN(ele)) {
             ele = reduceArr(ele);
         }
         return sum.concat(ele);
-    }, []);
+    }, []);*/
+    /*toString()或者join()可以直接将数组转换成字符串*/
+    return arr.toString().split(',').map(ele => Number(ele));
 }
 console.log(reduceArr([1,2,[1,2]]));
 console.log(reduceArr([1,2,[1,2],[3,4]]));
