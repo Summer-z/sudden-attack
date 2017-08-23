@@ -3,7 +3,7 @@
  注意：理解题意（不是找出在两数组中都存在的元素）
  例如：nums1 = [1, 2, 2, 1], nums2 = [2, 2], 返回 [2, 2].*/
 let arr_1 = [1, 2, 2, 1, 3];
-let arr_2 = [4, 2, 2, 1, 5, 9];
+let arr_2 = [4, 2, 2, 1, 5, 9, 1, 3];
 function main(arr_1, arr_2) {
     let temp = arr_1.length - arr_2.length;
     let max_str = (temp > 0 ? arr_1 : arr_2).join('');
