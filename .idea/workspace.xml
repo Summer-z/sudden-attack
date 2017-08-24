@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8feacc6d-a1bc-4c05-a96e-46c6b4ca2875" name="Default" comment="">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task0815.js" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task0813.js" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,6 +48,10 @@
       <file leaf-file-name="task0812.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task0812.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="450">
+              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+=======
             <state relative-caret-position="0">
               <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
               <folding />
@@ -50,11 +62,27 @@
       <file leaf-file-name="task0813.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task0813.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="100">
               <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+            <state relative-caret-position="243">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task0815.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task0815.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,6 +108,10 @@
         <option value="$PROJECT_DIR$/task0811.js" />
         <option value="$PROJECT_DIR$/task0812.js" />
         <option value="$PROJECT_DIR$/task0813.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/task0815.js" />
+=======
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
       </list>
     </option>
   </component>
@@ -116,6 +148,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,7 +169,14 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
       <pane id="Scratches" />
     </panes>
   </component>
@@ -265,18 +311,42 @@
       <workItem from="1502258094185" duration="1553000" />
       <workItem from="1502344328553" duration="3328000" />
       <workItem from="1502430762823" duration="3339000" />
+<<<<<<< HEAD
+      <workItem from="1502517294690" duration="3148000" />
+      <workItem from="1502776381293" duration="140000" />
+=======
       <workItem from="1502517294690" duration="2337000" />
       <workItem from="1502546327920" duration="604000" />
+<<<<<<< HEAD
       <workItem from="1502603430472" duration="2469000" />
       <workItem from="1502606051235" duration="88000" />
+=======
+      <workItem from="1502603430472" duration="972000" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="18865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="16655000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="17280000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+    <editor active="true" />
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22098215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -399,6 +469,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task0811.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task0812.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task0810.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task0811.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
@@ -438,6 +534,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task0812.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="450">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
           <folding />
@@ -446,11 +546,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task0813.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="100">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+        <state relative-caret-position="243">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+>>>>>>> 7334987943e74ac2550fae3be88dc05b0a48b0d8
+>>>>>>> a8f6e71eee7c1fb5e61252f61968262b61a0b30f
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task0815.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
