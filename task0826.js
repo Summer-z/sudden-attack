@@ -11,18 +11,23 @@ let rl = readline.createInterface({
     prompt: '请输入数字>'
 });
 rl.prompt();
-rl.on('line', function(line) {
-   let n = parseInt(line);
-   let result = '';
-   if(n%3===0&&n%5!==0) {
-       result = 'fizz';
-   } else if(n%5===0&&n%3!==0) {
-       result ='buzz';
-   } else if(n%5===0&&n%3===0) {
-       result ='fizz buzz';
-   } else {
-       result ='Sorry, it is not the number we need';
-   }
-   console.log(result);
-   rl.prompt();
+rl.on('line', function (line) {
+    let n = parseInt(line);
+    let result = '';
+    if (n % 3 === 0 && n % 5 !== 0) {
+        result = 'fizz';
+    } else if (n % 5 === 0 && n % 3 !== 0) {
+        result = 'buzz';
+    } else if (n % 5 === 0 && n % 3 === 0) {
+        result = 'fizz buzz';
+    } else {
+        result = 'Sorry, it is not the number we need';
+    }
+    console.log(result);
+    rl.prompt();
+});
+rl.on('SIGINT', () => {
+    rl.question('确定要退出吗？ ', (answer) => {
+        if (answer.match(/^y(es)?$/i)) rl.pause();
+    });
 });
